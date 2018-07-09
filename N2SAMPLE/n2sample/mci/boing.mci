@@ -1,0 +1,8 @@
+#
+# boing.mci -- play boing.wav
+#
+open waveaudio alias wave shareable wait
+load wave c:\mmos2\sounds\boing.wav wait
+play wave wait
+close wave wait
+

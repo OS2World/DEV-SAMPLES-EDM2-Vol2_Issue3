@@ -1,0 +1,15 @@
+#
+# john.mci -- john's example
+#
+acquire sequencer queue wait
+open sequencer wait
+info sequencer product wait
+set sequencer time format MMTIME wait
+load sequencer \mmos2\sounds\holiday.mid wait
+status sequencer length wait
+play sequencer wait
+load sequencer \mmos2\sounds\ballgame.mid wait
+play sequencer wait
+close sequencer
+release sequencer return resource
+

@@ -1,0 +1,11 @@
+;
+; Module Definition File mmiofmts.def
+;
+
+NAME mmiofmts WINDOWCOMPAT
+
+DESCRIPTION 'mmiofmts -- Copyright (c) 1994 by Marc E.E. van Woerkom. All rights reserved.'
+
+STACKSIZE 0x8000
+
+

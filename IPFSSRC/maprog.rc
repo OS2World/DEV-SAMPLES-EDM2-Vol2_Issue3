@@ -1,0 +1,10 @@
+#include "maprog.ih"
+
+POINTER ID_ICON LOADONCALL MOVEABLE DISCARDABLE maprog.ico
+
+STRINGTABLE
+BEGIN
+        ID_TITLE        "Multiple Argument Program"
+END
+
+

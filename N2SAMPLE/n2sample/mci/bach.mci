@@ -1,0 +1,11 @@
+#
+# bach.mci -- play the Bach MIDI file
+#
+open Sequencer alias midi2 shareable wait
+info midi2 product wait
+set midi2 time format mmtime wait
+load midi2 c:\mmos2\sounds\bach.mid wait
+status midi2 length wait
+play midi2 wait
+close midi2
+

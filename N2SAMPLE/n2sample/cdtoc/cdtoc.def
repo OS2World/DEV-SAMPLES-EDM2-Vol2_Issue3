@@ -1,0 +1,11 @@
+;
+; Module Definition File cdtoc.def
+;
+
+NAME cdtoc WINDOWCOMPAT
+
+DESCRIPTION 'cdtoc -- Copyright (c) 1994 by Marc E.E. van Woerkom. All rights reserved.'
+
+STACKSIZE 0x8000
+
+

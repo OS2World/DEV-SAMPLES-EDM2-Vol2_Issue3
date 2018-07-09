@@ -1,0 +1,11 @@
+;
+; Module Definition File mmpmvals.def
+;
+
+NAME mmpmvals WINDOWCOMPAT
+
+DESCRIPTION 'mmpmvals -- Copyright (c) 1994 by Marc E.E. van Woerkom. All rights reserved.'
+
+STACKSIZE 0x8000
+
+

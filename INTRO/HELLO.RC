@@ -1,0 +1,28 @@
+#include <os2.h>
+#include "hellorc.h"
+
+ICON RES_CLIENT HELLO.ICO
+
+STRINGTABLE
+{
+   STR_TOM, "Tom"
+   STR_DICK, "Dick"
+   STR_HARRY, "Harry"
+   STR_HELLONONAME, "Hello there."
+   STR_HELLOWITHNAME, "Hello there, %s."
+}
+
+DLGTEMPLATE DLG_NAME LOADONCALL MOVEABLE DISCARDABLE
+{
+   DIALOG  "Input Required", DLG_NAME, 112, 59, 150, 100,
+      WS_VISIBLE,
+      FCF_SYSMENU | FCF_TITLEBAR
+   {
+      LTEXT "Select a name, or enter it below, and select ""Ok""" ".", -1, 10, 80, 130, 16, DT_WORDBREAK
+      LISTBOX DNAME_LB_NAMELIST, 10, 45, 130, 35, LS_HORZSCROLL
+      ENTRYFIELD "", DNAME_EF_NAME, 12, 30, 127, 8, ES_MARGIN
+      DEFPUSHBUTTON "Ok", DID_OK, 10, 10, 40, 13
+      PUSHBUTTON "Cancel", DID_CANCEL, 55, 10, 40, 13
+   }
+}
+

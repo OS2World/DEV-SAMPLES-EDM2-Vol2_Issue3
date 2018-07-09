@@ -1,0 +1,21 @@
+#
+# playcd.mci -- play an audio CD
+#
+open cdaudio01 alias cdda shareable wait
+status cdda media present wait
+status cdda mode wait
+set cdda time format tmsf wait
+status cdda volume wait
+status cdda number of tracks wait
+status cdda length wait
+status cdda type track 1 wait
+# check unique ID (8 bytes)
+info cdda ID wait
+# check unique UPC (bcd number)
+info cdda UPC wait
+seek cdda to start wait
+# this provokes an error, for there is no window to notify
+play cdda notify
+play cdda wait
+close cdda wait
+

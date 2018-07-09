@@ -1,0 +1,8 @@
+NAME HELLO WINDOWAPI NEWFILES
+
+DESCRIPTION 'Hello World Sample
+Copyright (c) 1993, 1994 by Larry Salomon, Jr.
+All rights reserved.'
+
+STACKSIZE 0x8000
+

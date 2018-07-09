@@ -1,0 +1,11 @@
+;
+; Module Definition File mci.def
+;
+
+NAME mci WINDOWCOMPAT
+
+DESCRIPTION 'mci -- Copyright (c) 1994 by Marc E.E. van Woerkom. All rights reserved.'
+
+STACKSIZE 0x8000
+
+

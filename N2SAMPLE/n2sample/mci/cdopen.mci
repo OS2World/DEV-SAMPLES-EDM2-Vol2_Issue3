@@ -1,0 +1,7 @@
+#
+# cdopen.mci -- open the CD door
+#
+open CDaudio alias cd shareable wait
+set cd door open wait
+close cd wait
+
